@@ -1,6 +1,25 @@
+# Data and trained models (large, regenerable from the notebooks)
 data/
 models/
+*.pt
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments and secrets
 venv/
 .venv/
-__pycache__/
+.env
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
